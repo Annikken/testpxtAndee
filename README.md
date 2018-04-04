@@ -1,6 +1,6 @@
-# Andee
+# test
 
-This PXT package is to enable the use of the Annikken Andee app on the BBC micro:bit
+This PXT package is not meant to be used
 
 ## License
 
