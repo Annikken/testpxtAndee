@@ -1,6 +1,6 @@
 {
     "name": "testAndee",
-    "version": "0.8.1",
+    "version": "1.0.5",
     "description": "PXT package to enable the use of the Annikken Andee app on the BBC:MicroBit",
     "license": "MIT",
     "dependencies": {
@@ -14,5 +14,16 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": true
+    "public": true,
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0
+                }
+            }
+        }
+    },
+    "installedVersion": "workspace:9341143e-eedc-4eeb-64bf-c367051ff22e"
 }
