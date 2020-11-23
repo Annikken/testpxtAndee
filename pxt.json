@@ -14,6 +14,17 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false,    
+    "public": false,   
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }, 
     "installedVersion": "workspace:9341143e-eedc-4eeb-64bf-c367051ff22e"
 }
