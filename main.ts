@@ -766,8 +766,8 @@ const UIEND = 0x05;
 
 const SEP = 0xFB;
 
-const EVENT_ID_OFFSET = 50;
-const ANDEE_EVENT_VALUE = 80;
+const EVENT_ID_OFFSET = 80;
+const ANDEE_EVENT_VALUE = 100;
 
 const CLEAR = 'L';//
 const TIMEEPOCH = 'T';//
